@@ -1,0 +1,51 @@
+{
+  {
+    "description": "generic",
+    "count": 1,
+    "load_profile_name": "G0",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00],
+    "has_fridge": true
+  },
+  {
+    "description": "workday 8-18",
+    "count": 0,
+    "load_profile_name": "G1"
+  },
+  {
+    "description": "high consumption in the evening hours",
+    "count": 0,
+    "load_profile_name": "G2",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00]
+  },
+  {
+    "description": "non-stop",
+    "count": 0,
+    "load_profile_name": "G3",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00]
+  },
+  {
+    "description": "shop, barber",
+    "count": 0,
+    "load_profile_name": "G4",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00]
+  },
+  {
+    "description": "bakery",
+    "count": 0,
+    "load_profile_name": "G5",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00]
+  },
+  {
+    "description": "high consumption on the weekend",
+    "count": 0,
+    "load_profile_name": "G6",
+    "scale_factor": [1.00, 1.00],
+    "power_factor": [0.80, 1.00]
+  }
+}
+  

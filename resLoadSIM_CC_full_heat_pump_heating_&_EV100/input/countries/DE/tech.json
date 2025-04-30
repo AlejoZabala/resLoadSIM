@@ -1,0 +1,269 @@
+{
+  "battery":
+  {
+    "frequency_solar": 60.00,
+    "frequency_non_solar": 0.00,
+    "capacity_in_days": 0.00,
+    "smartgrid_enabled": 0.00,
+    "allow_grid_charge_solar": false,
+    "installation_costs": 500.00,
+    "avg_lifetime": 8.00,
+    "min_price": 315.00,
+    "max_price": 1650.00,
+    "min_capacity_per_resident": 0.375,
+    "max_capacity_per_resident": 1.500,
+    "min_eff_charging": 0.925,
+    "max_eff_charging": 0.975,
+    "min_eff_discharging": 0.925,
+    "max_eff_discharging": 0.975,
+    "max_power_charging": 0.250,
+    "max_power_discharging": 0.500
+  },
+  "boiler":
+  {
+    "power_factor": 1.00
+  },
+  "circulation_pump":
+  {
+    "power_per_size": 0.00180,
+    "power_factor": 0.85,
+    "controlled": 90.00,
+    "rnd_first_day": [28, 5, 15, 42],
+    "rnd_last_day": [28, 5, 15, 42],
+    "first_month": 4,
+    "last_month": 10,
+    "time_1": 79200,
+    "time_2": 21600,
+    "rnd_time_on": [300.00, 600.00],
+    "rnd_time_off": [300.00, 600.00]
+  },
+  "air_conditioner":
+  {
+    "min_eff": 0.45,
+    "max_eff": 0.50,
+    "kW_per_m2": 0.100,
+    "power_factor": 0.85
+  },
+  "computer":
+  {
+    "power": 0.400,
+    "power_factor": 0.95,
+    "duration_mean": 13200.0,
+    "duration_sigma": 4500.0,
+    "duration_fraction": 0.60,
+    "duration_fraction_saturday": 0.60,
+    "duration_fraction_sunday": 0.60,
+    "time_offset": [6000.0, 12000.0, 24000.0],
+    "time_offset_saturday": [6000.0, 12000.0, 24000.0],
+    "time_offset_sunday": [6000.0, 12000.0, 24000.0],
+    "rnd": [30, 55, 90],
+    "rnd_saturday": [10, 25, 65],
+    "rnd_sunday": [30, 55, 80],
+    "time_2_mean": 68400.0,
+    "time_2_sigma": 7200.0
+  },
+  "stove":
+  {
+    "power": [1.200, 1.710, 1.710, 2.040, 2.220, 2.400],
+    "power_factor": 0.98,
+    "duration_1_percent": 90,
+    "duration_2_percent": 70,
+    "duration_2_percent_saturday": 35,
+    "duration_2_percent_sunday": 75,
+    "time_offset": 1800.0,
+    "rnd_duration_1": [600.0, 360.0, 240.0, 1200.0],
+    "rnd_duration_2": [4560.0, 1800.0, 2400.0, 86400.0],
+    "rnd_duration_3": [4560.0, 1200.0, 2400.0, 86400.0],
+    "time_2_mean": 43200.0,
+    "time_2_sigma": 4800.0,
+    "time_3_mean": 64800.0,
+    "time_3_sigma": 7200.0
+  },
+  "dishwasher":
+  {
+    "smartgrid_enabled": 0.00,
+    "smart": 0.00,
+    "energy_classes": [0.00, 1.00, 2.00, 7.00, 20.00, 35.00, 35.00],
+    "hours_per_cycle": 1.00,
+    "place_settings": [5.00, 7.00, 9.00, 11.00, 14.00, 22.00],
+    "SAEc_small": [126.0, 25.2],
+    "SAEc_big": [378.0, 7.0],
+    "factor": 280.0,
+    "probability": [45, 15],
+    "ignore_price": 10,
+    "fraction": 85,
+    "timer_1_mean": 43200.0,
+    "timer_1_sigma": 7200.0,
+    "timer_2_mean": 64800.0,
+    "timer_2_sigma": 7200.0,
+    "timer_3_mean": 3600.0,
+    "timer_3_sigma": 1800.0,
+    "preview_length": 1800,
+    "peak_delay": 1800,
+    "power_factor": 0.95
+  },
+  "e_vehicle":
+  {
+    "smartgrid_enabled": 0.00,
+    "smart": 0.00,
+    "departure_delay": 3600.00,
+    "model 1":
+    {
+      "name": "Nissan Leaf, NL",
+      "consumption_per_100km": 17.80,
+      "battery_capacity": 59.00,
+      "max_charge_power_AC": 6.60,
+      "max_charge_power_DC": 100.00,
+      "charging_curve": [0.862, 0.862, 0.892, 0.923, 1.000, 0.985, 0.985, 0.967, 0.923, 0.892, 0.892, 0.846, 0.831, 0.692, 0.662, 0.585, 0.554, 0.554, 0.567, 0.308, 0.000]
+    }
+  },
+  "freezer":
+  {
+    "smartgrid_enabled": 0.00,
+    "smart": 0.00,
+    "min_temperature": -20.00,
+    "max_temperature": -16.00,
+    "delta_t_rise_factor": 0.000400,
+    "delta_t_rise_mean": 100.00,
+    "delta_t_rise_sigma": 10.00,
+    "delta_t_drop_factor": 0.002000,
+    "delta_t_drop_mean": 100.00,
+    "delta_t_drop_sigma": 10.00,
+    "Vc_per_resident": 100.00,
+    "Tc": -20.00,
+    "mn_percentage": 70,
+    "factor_1": 12.00,
+    "energy_classes": [1.00, 4.00, 5.00, 10.00, 30.00, 20.00, 30.00],
+    "power_factor": 0.80
+  },
+  "fridge":
+  {
+    "smartgrid_enabled": 0.00,
+    "smart": 0.00,
+    "min_temperature": 2.00,
+    "max_temperature": 8.00,
+    "delta_t_rise_factor": 0.000400,
+    "delta_t_rise_mean": 100.00,
+    "delta_t_rise_sigma": 10.00,
+    "delta_t_drop_factor": 0.002000,
+    "delta_t_drop_mean": 100.00,
+    "delta_t_drop_sigma": 10.00,
+    "Vc_mean": [600.00, 800.00, 1200.00, 1400.00, 1600.00, 2000.00],
+    "Vc_sigma": [10.00, 10.00, 10.00, 10.00, 10.00, 10.00],
+    "Vc_low": [300.00, 400.00, 600.00, 700.00, 800.00, 1000.00],
+    "Vc_high": [2200.00, 2200.00, 2200.00, 2200.00, 2200.00, 2200.00],
+    "Tc": 4.00,
+    "factor_1": 12.00,
+    "factor_2": 14.00,
+    "energy_classes": [1.00, 4.00, 5.00, 30.00, 30.00, 20.00, 10.00],
+    "power_factor": 0.90
+  },
+  "heating":
+  {
+    "smartgrid_enabled": 0.00,
+    "kW_per_m2": 0.100,
+    "power_factor": 1.00
+  },
+  "heat_pump":
+  {
+    "min_eff": 0.45,
+    "max_eff": 0.55,
+    "min_temperature": 35.00,
+    "max_temperature": 50.00,
+    "kW_per_m2": 0.100,
+    "power_factor": 0.95
+  },
+  "light":
+  {
+    "energy_classes": [1.00, 1.00, 2.00, 5.00, 5.00, 20.00, 66.00],
+    "luminous_flux_mean": 500,
+    "luminous_flux_sigma": 150,
+    "luminous_flux_min": 400,
+    "luminous_flux_max": 900,
+    "sigma_morning": 5600.0,
+    "sigma_evening": 12800.0,
+    "power_factor": 0.90
+  },
+  "tumble_dryer":
+  {
+    "smartgrid_enabled": 0.00,
+    "energy_classes": [5.00, 5.00, 10.00, 20.00, 50.00, 10.00, 0.00],
+    "hours_per_cycle": 1.00,
+    "capacity": [4.00, 5.00, 6.00, 8.00, 8.00, 10.00],
+    "ignore_price": 10,
+    "peak_delay": 1800,
+    "power_factor": 0.95
+  },
+  "tv":
+  {
+    "energy_classes": [2.00, 3.00, 5.00, 40.00, 40.00, 10.00, 0.00],
+    "diagonal_1": 50.00,
+    "diagonal_2": 40.00,
+    "diagonal_3": 30.00,
+    "avg_duration": [12420.00, 12420.00, 12420.00, 12420.00, 12420.00, 12420.00],
+    "factor_mean": 1.000,
+    "factor_sigma": 0.250,
+    "factor_mean_we": 1.200,
+    "factor_sigma_we": 0.300,
+    "duration_factor": 0.600,
+    "duration_factor_sat": 0.500,
+    "duration_factor_sun": 0.500,
+    "random": [30, 55, 60],
+    "random_sat": [10, 25, 55],
+    "random_sun": [30, 55, 80],
+    "delay": [6000, 12000, 24000],
+    "delay_sat": [6000, 12000, 24000],
+    "delay_sun": [6000, 12000, 24000],
+    "time_2_mean": 68400.0,
+    "time_2_sigma": 7200.0,
+    "power_factor": 0.95
+  },
+  "vacuum":
+  {
+    "energy_classes": [0.00, 10.00, 10.00, 10.00, 10.00, 60.00, 0.00],
+    "timer_min": 28800,
+    "timer_max": 72000,
+    "timer_sigma": 30,
+    "timer_factor": 60,
+    "power_factor": 0.9
+  },
+  "washing_machine":
+  {
+    "smartgrid_enabled": 0.00,
+    "smart": 0.00,
+    "energy_classes": [5.00, 5.00, 20.00, 55.00, 10.00, 5.00, 0.00],
+    "hours_per_cycle": 1.40,
+    "capacity": [4.00, 5.00, 6.00, 7.00, 8.00, 8.00],
+    "random_limit": 50,
+    "ignore_price": 10,
+    "best_price_lookahead": 1440,
+    "timer_mean": 3600,
+    "timer_sigma": 1800,
+    "peak_delay": 1800,
+    "power_factor": 0.60
+  },
+  "solar_module":
+  {
+    "system_loss": 14.00,
+    "production_ratio": 0.00,
+    "min_area": 1.00,
+    "max_area": 10.00,
+    "min_eff": 0.10,
+    "max_eff": 0.20,
+    "power_factor": 0.95
+  },
+  "solar_collector":
+  {
+    "area_factor_1": 2.75,
+    "area_factor_2": 0.05,
+    "eff_0": 0.80,
+    "min_flow_rate": 40.00,
+    "max_flow_rate": 60.00
+  },
+  "heat_storage":
+  {
+    "liter_per_m2": 50.00,
+    "max_temperature": 60.00,
+    "max_heat_power": 20.00
+  }
+}
