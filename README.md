@@ -6,6 +6,7 @@ These resources facilitate reproducible analyses and support further studies on 
 
 This repository also includes detailed information about resLoadSIM, along with instructions on how to install and configure it for your own simulations.
 
+# About resLoadSIM
 **resLoadSIM** is a stochastic bottom-up simulation tool for predicting electric residential load profiles of individual households with a high time resolution. For each household some individual characteristics are defined, e.g. number of residents, the size of the house or apartment and the devices used according to some statistical information. Each device is characterized by its energy class. In the simulation devices are used according to the estimated habits of the inhabitants. 
 
 Weekly and seasonal variations are also captured. Beside using the tool for load prediction it is also possible to study the potential for load shifting in private households by implementing different control mechanisms based e.g. on variable pricing.
