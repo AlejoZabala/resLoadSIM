@@ -18,22 +18,23 @@ If you want to obtain resLoadSIM, you have to address directly to the JRC author
 
 ## Project structure
 
-```.
-├── countries
-│   ├── DE
-│   │   └── locations
-│   │       ├── Karlsruhe
-│   │       └── Oldenburg
-│   └── NZ
-│       └── locations
-│           ├── Auckland
-│           └── Christchurch
-├── README.md
-└── structure.txt```
+    .
+    ├── countries
+    │   ├── DE
+    │   │   └── locations
+    │   │       ├── Karlsruhe
+    │   │       └── Oldenburg
+    │   └── NZ
+    │       └── locations
+    │           ├── Auckland
+    │           └── Christchurch
+    ├── README.md
+    └── structure.txt
 
-9 directories, 2 files
+    9 directories, 2 files
 
-# Acknowledgment and License Information
-resLoadSIM, is provided by under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms.
+## Acknowledgment and License Information
+
+**resLoadSIM** is provided under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms.
 
 
