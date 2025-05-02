@@ -16,5 +16,23 @@ You can find more infomration about the JRC Modelling Suit here: https://ses.jrc
 
 If you want to obtain resLoadSIM, you have to address directly to the JRC authors. Their contact information might be obtained directly with the JRC.
 
+## Project structure
+.
+├── countries
+│   ├── DE
+│   │   └── locations
+│   │       ├── Karlsruhe
+│   │       └── Oldenburg
+│   └── NZ
+│       └── locations
+│           ├── Auckland
+│           └── Christchurch
+├── README.md
+└── structure.txt
+
+9 directories, 2 files
+
 # Acknowledgment and License Information
 resLoadSIM, is provided by under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms.
+
+
