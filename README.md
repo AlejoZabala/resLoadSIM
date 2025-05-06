@@ -29,14 +29,6 @@ If you want to obtain resLoadSIM, the current version resLoadSIM-6.2.0-Source ca
     │           ├── Auckland
     │           └── Christchurch
     ├── README.md
-<<<<<<< c5939ef7019f0c7eda88f681b250805c0a38a74a
-    └── structure.txt
-
-
-## Acknowledgment and License Information
-
-**resLoadSIM** is provided under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms.
-=======
     ├── resLoadSIM-6.2.0-Source
     │   ├── AUTHORS
     │   ├── build
