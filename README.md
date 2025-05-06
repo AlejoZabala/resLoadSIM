@@ -212,7 +212,7 @@ If you want to obtain resLoadSIM, the current version resLoadSIM-6.2.0-Source ca
  
  resLoadSIM supports appliances with varying loads (e.g., washing machines). Configuration requires defining load profiles per appliance and energy efficiency class in varload.json.
  
- ## 10. Electric Vehicles
+ ## 10. Electric Vehicles and Battery charging
  
  Simulates EV charging based on residence location, household types, weekdays, battery specifications, user behavior, and PV availability. EVs are modeled distinctly (idle, driving, charging states) and can participate in smart-grid control schemes.
  Available battery strategies:
