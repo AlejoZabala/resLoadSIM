@@ -1,0 +1,41 @@
+Requirements
+------------
+
+  C++ compiler
+  
+  optional:
+    CMake
+    MPI Library
+    PETSc
+    libcurl
+ 
+Installation (Linux/MacOS)
+------------
+  
+  mkdir build
+  cd build
+  cmake ..
+  make
+  make install
+
+if installation problems surge: 
+
+write on the top of: CMakeLists.txt
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+
+and
+
+Comment out or remove any line that includes target_compile_features with cxx_std_17 (such as the one at line 43).
+
+  
+Execution
+---------
+
+  resLoadSIM [-v|-s] households days
+  
+  Households and days are the number of households to simulate
+  and the simulation time in days. The options are:
+  
+  -v                 show the version number  
+  -s                 silent mode. no output on screen
+  
