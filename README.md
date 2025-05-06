@@ -49,10 +49,7 @@ If you want to obtain resLoadSIM, the current version resLoadSIM-6.2.0-Source ca
 **resLoadSIM** is provided under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms. You will find the MIT License within the resLoadSIM version 6.2.0 folder.
 
  The resLoadSIM activation code developed wihtin the [HINT](https://www.dlr.de/en/ve/research-and-transfer/projects/project-hint) project is licensed under the **BSD 3-Clause License**.  
- 
- See the [LICENSE](LICENSE) file for details.
- 
- [![License]([https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://github.com/AlejoZabala/resLoadSIM/blob/main/LICENSE](https://github.com/AlejoZabala/resLoadSIM/blob/main/License_activation_code.txt))
+
  
  ## 2. Installation 
  
