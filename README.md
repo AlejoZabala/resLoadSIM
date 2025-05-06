@@ -42,9 +42,7 @@ If you want to obtain resLoadSIM, the current version resLoadSIM-6.2.0-Source ca
     │   └── src
     └── structure.txt
 
->>>>>>> Update README and add structure.txt and source folder
-
- ## 1. Acknowledgment and License Information
+## 1. Acknowledgment and License Information
  
 **resLoadSIM** is provided under an MIT License. This project cites resLoadSIM to acknowledge its intellectual property rights and licensing terms. You will find the MIT License within the resLoadSIM version 6.2.0 folder.
 
