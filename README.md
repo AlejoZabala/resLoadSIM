@@ -52,7 +52,7 @@ If you want to obtain resLoadSIM, the current version resLoadSIM-6.2.0-Source ca
  
  See the [LICENSE](LICENSE) file for details.
  
- [![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://github.com/AlejoZabala/resLoadSIM/blob/main/LICENSE)
+ [![License]([https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://github.com/AlejoZabala/resLoadSIM/blob/main/LICENSE](https://github.com/AlejoZabala/resLoadSIM/blob/main/License_activation_code.txt))
  
  ## 2. Installation 
  
